@@ -2,9 +2,10 @@
 
 int main(void)
 {
-    float r,volume;
-r = 1;
-volume = 4/3.0 *3.14 *r*r*r;
-printf("volume is %f",volume);
+    int time,distance;
+    printf("Enter time:\n");
+    scanf("%d",&time);
+    distance = 1.0/2*10*time*time;
+    printf("Distance is %d\n",distance);
 return 0;
 }
